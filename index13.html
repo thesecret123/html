@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - html</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <form>
+        <h2>Form Pendaftaran</h2>
+        <label>NIK</label>
+        <input type="text" name="NIK" placeholder="nik"><br>
+        <label>Nama Lengkap</label>
+        <input type="text" name="Nama Lengkap" placeholder="Nama Lengkap"><br>
+        <label>Tanggal Lahir</label>
+        <input type="date" name="tgl_lahir"><br>
+        <label>Email</label>
+        <input type="email" name="email" placeholder="email"><br>
+        <label>Password</label>
+        <input type="Password" name="Password" placeholder="Password"><br>
+        <label>Jenis Kelamin</label>
+        <input type="radio" id="jenis-kelamin" name="jenis-kelamin" placeholder="jenis-kelamin">
+        <label for="laki-laki">Laki - Laki</label>
+        <input type="radio" id="jenis-kelamin" name="jenis-kelamin" placeholder="jenis-kelamin">
+        <label for="Perempuan">Perempuan</label><br>
+        <label>Agama</label>
+        <select name="Agama">
+            <option value="Hindu">Hindu</option>
+            <option value="Hindu">Islam</option>
+            <option value="Hindu">Kristen</option>
+            <option value="Hindu">Katolik</option>
+            <option value="Hindu">Konghuchu</option>
+        </select>
+        <br>
+        <label>Hobi</label><br>
+        <input type="checkbox" id="Bermain Game" name="Game" value="Bermain Game">
+        <label for="Bermain Game">Bermain Game</label><br>
+        <input type="checkbox" id="Editing Video" name="Editing" value="Editing Video">
+        <label for="Editing Video">Editing Video</label><br>
+        <input type="checkbox" id="Bersepeda" name="Speda" value="Bersepeda">
+        <label for="Bersepeda">Bersepeda</label>
+        <br>
+        <input type="file" id="avatar" name="avatar" accept="">
+        <br>
+        <!-- search bar -->
+        <label>Search</label>
+        <input type="search" name="search" placeholder="search">
+        <br>
+        <!-- url -->
+        <label>Url</label>
+        <input type="url" name="url"><br>
+        <!-- alamat -->
+        <label>Alamat :</label><br>
+        <textarea rows="5" cols="20" name="Alamat"></textarea><br>
+        <!-- Jumlah -->
+        <label>Jumlah</label>
+        <input type="number" name="number">
+        <button>Send</button>
+    </form>
+</body>
+</html>
